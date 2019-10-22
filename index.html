@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Tekken 7 Guide</title>
+</head>
+<body>
+<nav id="navbar">
+    <header>Tekken 7 Guide</header>
+    <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#The_Basics">The Basics</a></li>
+        <li><a class="nav-link" href="#Choosing_a_Character">Choosing a Character</a></li>
+        <li><a class="nav-link" href="#Highs,_Mids,_and_Lows">Highs, Mids, and Lows</a></li>
+        <li><a class="nav-link" href="#Basic_Movement">Basic Movement</a></li>
+        <li><a class="nav-link" href="#Frame_Data">Frame Data</a></li>
+        <li><a class="nav-link" href="#Crushes_&_Counter_hits">Crushes & Counter hits</a></li>
+        <li><a class="nav-link" href="#While_Standing">While Standing</a></li>
+        <li><a class="nav-link" href="#Low_Parries">Low Parries</a></li>
+        <li><a class="nav-link" href="#Strings">Strings</a></li>
+        <li><a class="nav-link" href="#Throws">Throws</a></li>
+        <li><a class="nav-link" href="#Getting_off_the_Ground">Getting off the Ground</a></li>
+        <li><a class="nav-link" href="#Combos">Combos</a></li>
+        <li><a class="nav-link" href="#Rage">Rage</a></li>
+        <li><a class="nav-link" href="#Walls_and_Breakable_Terrain">Walls and Breakable Terrain</a></li>
+        <li><a class="nav-link" href="#Good_Moves_Vs._Bad_Moves">Good Moves Vs. Bad Moves</a></li>
+        <li><a class="nav-link" href="#Advanced_Movement">Advanced Movement</a></li>
+        <li><a class="nav-link" href="#Playing_against_real_humans">Playing against real humans</a></li>
+        <li><a class="nav-link" href="#Watching_Match_Footage">Watching Match Footage</a></li>
+        <li><a class="nav-link" href="#Tekken_World_Tour">Tekken World Tour</a></li>
+        <li><a class="nav-link" href="#Important_Links">Important Links</a></li>
+    </ul>
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+            <p>
+                Tekken 7 is the latest installment in the long running 3D fighting game series and was released in 2015 (in arcades, was released on consoles in 2017).
+                To this day it remains as one of the most popular fighting games and still continues to see growth, seeing an increase in entrants at EVO every year.
+                At its core, Tekken 7 pits players against each other in an one-on-one brawl, to either reduce their opponents health to zero or to have more health 
+                than their opponent at the end of a 60 second round.
+            </p>
+            <figure id="vid-gen">
+                <iframe id="vid" width="560" height="315" 
+                src="https://www.youtube.com/embed/riGCdE6ZPck?start=88" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <figcaption id="vid-cap">
+                    Core-A-Gaming's video showing the basics of most fighting games including Tekken 7.
+                </figcaption>
+            </figure>
+            <p>
+                Tekken 7 shies away from crazy flashy super powers and usually focuses on hand-to-hand combat, many characters are based off of real people or real martial arts.
+                Tekken 7's game design has found an almost perfect balance between catering to new players while keeping the depth that has made the series unique for Tekken
+                veterans. A fairly balanced roster of characters paired with a system that ensures the viewer experience is enjoyable and you've got a competitive masterpiece. 
+            </p>
+        </article>
+
+    </section>
+    <section class="main-section" id="The_Basics">
+        <header>The Basics</header>
+        <article>
+            <p>
+                Tekken 7 has a four button system, one button for each limb (left arm, right arm, left leg, right leg) along with a mechanism to control movement (typically an analog stick or d-pad).
+                In order to win a "game" of Tekken you must be the first to win three rounds and in order to win a round you must either have more health than your opponent at the end of the round or
+                have reduced your opponent's health to zero during the round, rounds are 60 seconds. If you and your opponent both have the same amount of health at the end of a round or the round ends
+                with both you and your opponent reducing each other health to zero at the same time, the round will result in a draw giving a round to both players.
+            </p>
+            <p>
+                For Tekken 7 the basic notation is:
+            </p>
+            <code>
+                1 for LP (Left Punch), 2 for RP (Right Punch), 3 for LK (Left Kick), 4 for RK (Right Kick)
+            </code>  
+            <p>
+                    It is important to note that in Tekken 7, you will often
+                    have to press multiple buttons at the same time (mostly 2 buttons) in order to do some moves, like 1+2, 3+4, or 2+4. 
+            </p>
+            <p>
+                Regarding the notation for directions are pretty straight forward and are in relation to you and your opponent:
+            </p>
+            <code>
+                f = forward or going towards your opponent, d = down, b = back or backing away from your opponent, u = up
+            </code>
+            <p>
+                These are often combined to make diagonals like df = down+forward, ub= up+back.
+            </p>
+            <p>
+                The majority of moves require both a direction and a "limb" button pressed at the same time in order for the move to be executed for example: the notation for a hopkick (most hopkicks)
+                are uf3 or uf4. Some moves even require multiple directional inputs for example: the notation for Devil Jin's lazer scrapper starts with b f2 or bf2 (note that you cannot input a back
+                and a forward input at the same time so it means back THEN forward instead of back+forward)
+            </p>
+            <p>
+                If the notation has commas in between each notation segment then that usually means the move is part of a string (which we will go into more detail later). So if we take a look at
+                Devil Jin's full razer scrapper string it should look something like this:
+            </p>
+            <code>bf2,1,2</code>
+            <p>
+                The most common button setup for arcade sticks has:
+            </p>
+            <code>
+                 Square = 1 or LP, Triangle = 2 or RP, X = 3 or LK, Circle = 4 or RK
+            </code>
+            <p>
+                The extra buttons (for pad shoulder buttons) can be mapped for the ingame macros
+                (like 1+2, 3+4, 1+3, 1+4, 2+3, 2+4) depending on your characters needs.
+            </p>
+            <p>
+                Blocking is very important and also very strong in Tekken 7. There are two types of blocking, stand blocking is performed by holding back and crouch blocking is performed by holding down
+                and back (db notation). <b>Stand blocking will block both highs and mids while crouch blocking will block lows and since crouch blocking is considered crouching or ducking, highs will whiff
+                over the ducking character.</b> It is important to note that there is no chip damage in Tekken (excluding some of the "2D" characters) meaning that when you successfully block a move you will
+                not take any damange, making blocking a strong, safe option in many cases.
+            </p>
+            <figure id="vid-gen">
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/suxp4__yuPg" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                    <figcaption id="vid-cap">
+                        Core-A-Gaming/Pro Tekken player Yuyu demonstrate/teach the basics of Tekken 7.
+                    </figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Choosing_a_Character">
+        <header>Choosing a Character</header>
+        <article>
+            <p>
+                So now that you've decided to mess around in Tekken 7, its time to choose a character (since you literally cannot play without choosing one). Tekken 7 is one of the most balanced fighting
+                games out right now since almost all character have a base set of moves that are the same or moves that serve a similar purpose. For instance, many characters have a fast mid "poke" that
+                does decent damage and is safe (typically a character's df1).
+            </p>
+            <p>
+                <b>If you see a character that you think is cool or there's something about them you like then I suggest you pick that character</b> to learn since having fun or liking a character will help make
+                sure you continue playing. While some characters might seem easier or better than other characters, at the top level (where how good a character really matters) regardless of what character
+                you play, it won't change the fact that Tekken is hard.
+            </p>
+            <p>
+                If you were like me and couldn't decide which character to play I'd suggest looking at tournaments or gameplay footage to see if anything peaks your interest like a move that looks really
+                cool or good. For instance, one of the first characters I learned was Dragunov because I watched JDCR and thought his b1+2 was an awesome move. As you learn how to play Tekken you'll figure
+                out what you want in a character and hopefully find a character that fits your playstyle the best so don't feel like you need to stick with one character all the time!
+            </p>
+            <p>
+                If you are interested in learning how some of the characters play or each character's pros-and-cons made by pro play Fergus2k8 (@Fergus_TK) with a brief summary 
+                of all the characters that you can find here: 
+                <a id="ref-link" href="https://docs.google.com/document/d/1yqgxbES6su4clpQou2hzlZN40rpPBtwmMRKWfexbj3g/edit" target="_blank">Tekken 7 Character Overviews</a>
+            </p>
+            <figure id="vid-gen">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/Nbewxse8DlI" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <figcaption id="vid-cap">
+                    Tekken 7 Character Overview by That Blasted Salami. *A bit outdated but still a great video!
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Highs,_Mids,_and_Lows">
+        <header>Highs, Mids, and Lows</header>
+        <article>
+            <p>
+                In Tekken 7 there are 3 main types of moves (with a few expections): highs, mids, and lows with each serving a different purpose. It is important to note that in this section I am making
+                generalizations about these moves so take everything with a grain of salt.
+            </p>
+            <p>
+                Highs are usually the fastest out of the three and with good frame data (refer to the frame data section) but can be ducked and punished. Mids MUST be blocked by stand blocking and are
+                generally safe depending on the other attributes of the move (how much damage it does, does well does it track, etc.). Lows can only be blocked by crounch blocking, they usually do 
+                little damage (compared to highs and mids) and are generally UNSAFE meaning that if they get blocked you will most likely get punished.
+            </p>
+            <p>
+                So if lows are so bad and mids are so good, why doesn't everyone stand block all the time? Well for most of the time you should be stand blocking out of fear of mids but knowing that
+                your opponent is only going to stand block means that you can use low attacks. Lows are a way to get a little bit of damage and to encourage the opponent to duck in order to allow
+                you to use your strong mids but make sure you are not being predictable so you don't get punished!
+            </p>
+            <p>
+                There are moves that have additional effects like "homing" moves, these moves will hit opponents who are stepping in the foreground or background consistantly but are often a little slow.
+                We'll go through other types of moves throughout this guide.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Basic_Movement">
+        <header>Basic Movement</header>
+        <article>
+            <p>
+                Movement is arguably the most important skill to master in Tekken 7 since having good movement allows you to take minimal risk while being able to capitalize on your opponents mistake for a
+                high reward. Learning to have good movement can be pretty scary especially if you try to start imitating the pros so it is important to learn the basics first before trying to do all the
+                fancy stuff. Some characters have special movement options like a wavedash or "2D" jump style but these are character dependent.
+            </p>
+            <p>
+                In Tekken 7, there are a few ways to close the distance between you and your opponent. The most basic being walking, by pressing and holding forward your character will being walking towards
+                your opponent. Next there's dashing, inputting forward twice has your character dash once and then if you hold forward after the dash your character will continue walking. Finally there is
+                running, which is if you input forward three times and has your character begin running towards your opponent. It is important to know that you can block at anytime going forward by pressing
+                and holding back but it will stop your character's forward movement.
+            </p>
+            <p>
+                Next is moving away from your opponent. Pressing and holding back will have your character walking back away from opponent whereas if you pressing back twice in succession then your character
+                will perform a "backdash" similar to a forward dash. It is important to note that while walking back or backdashing your character is stand blocking.
+            </p>
+            <p>
+                Sidestepping is relatively simple if you tap up or down once you will get a sidestep (if you tap and hold up, you'll get a neutral jump, if you tap and hold down, you'll crouch).
+                If you input up twice or down twice and hold, you'll get a side walk. Please note that you can cancel a sidestep or a sidewalk into a block at anytime by pressing and holding back.
+                If you input ub or up+back, your character will jump back and if you input uf or up+forward your character will jump forward. If your opponent does a "linear" move while your are performing
+                a sidestep or sidewalk, you'll go right around it and make it whiff allowing you to punish. If you somehow end up at the opponent's backside then you get free rein on what to do since YOU
+                CANNOT BLOCK moves that hit your rear.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Frame_Data">
+        <header>Frame Data</header>
+        <article>
+            <p>
+                Frame data can be a bit scary and not necessary to be a good Tekken player but learning frame data will definitely help especially when it comes to Tekken 7. Due to Tekken's slower pace
+                (compared to other fighting games) and the way they've designed the risk-reward of the moves in the game, it really rewards you for knowing the frame data.
+            </p>
+            <p>
+                To start, lets talk about frame data in general. So we use a "frame" (there are 60 frames in a second) as kind of a measurement of time, essentially we use it to see the speed of a move.
+                For instance, in Tekken 7 generally the fastest move a character has is 10 frames (the 1 jab) meaning is takes 1/6 of a second to hit someone with it. Which is important when you want to
+                hit someone before they hit you. So if Player A used a 10 frame move and Player B used a 15 frame move, then Player A would hit Player B first.
+            </p>
+            <p>
+                The previous example had both people attacking but what if one player decides to block? Most moves in Tekken 7 are NEGATIVE on block meaning that if Player A did a move that was
+                negative on block and Player B blocked it and then both players decided to attack with their fastest move (the 10 frame jab) then Player B would hit Player A first. Since the previous
+                move that Player A used was negative on block, Player B can move before Player A. So in simple terms, being negative (in terms of frames) is BAD. Some moves are so "negative" on block that
+                the opponent can get a guaranteed punish on them if blocked. So if Player A did a move that was negative 10 on block, Player B could hit them with a guaranteed jab punish. If a move is
+                negative on block but lower than -10 (so -9 and below) then it is considered "safe" meaning that you are at a disadvantage but nothing is guaranteed at least. Similar to moves that are
+                negative, there are moves that are positive on block or plus, meaning that if blocked the player is actually at an ADVANTAGE. So if negative is bad, then positive is good (from the
+                perspective of the attacker). Most moves in the game are plus on hit meaning that if you hit the opponent with the move (the don't block) then you are at an advantage.
+            </p>
+            <p>
+                If you're confused don't worry all you really need to know is, negative is bad and positive is good. Next is punishing, so Tekken 7 moves are for the most part balanced and one way
+                they've balanced moves is by making some moves so "negative" on block that the opponent gets a guanteed punish on them. For example, let's take a look at the hopkick it is fast, it hits
+                mid, it naturally beats lows, and it leads to a lot of damage. This move sounds like the best move in the game, but the catch is that it is at least -13 meaning you can hit them with a that
+                is 13 frames fast.
+            </p>
+            <p>
+                It is important to know that just because you know the frame data on paper DOES NOT mean you know how the interaction will be in practice. A lot of moves are punishable on block but have a lot
+                of pushback meaning that sometimes you cannot punish or you have to use the correct punish for the occasion.
+            </p>
+            <p>
+                It can be overwhelming trying to learn all your character's frame data and the opponents so to start just try to learn bit by bit, start by learning the frame data of your character's important
+                moves. You don't need to go through every single character and memorize their frame data, start by playing and seeing what moves your opponent does and then try to punish it or go to training
+                mode after and figure out how to beat the move there. The more you play the more you'll start to figure out the weaknesses of moves, and if a move doesn't really have a weakness or seems like
+                it doesn't then you'll most likely hear about it from the community the more you play. If you are interested in where to find the frame data, the most common website is: 
+                <a id="ref-link" href="http://rbnorway.org/t7-frame-data/" target="_blank">rbnorway.org</a>
+            </p>
+            <figure id="vid-gen">
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/hhZ-7FKR1XI" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                    <figcaption id="vid-cap">
+                        A breakdown of frame data in Tekken 7 by Youtube channel, Just Frame.
+                    </figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Crushes_&_Counter_hits">
+            <header>Crushes & Counter hits</header>
+            <article>
+                <p>
+                    If we say a move is a low crush or a high crush, that means that the move has a tendency to "crush" or beat lows or highs. For instance, a hopkick involves the character jumping meaning
+                    that the character will jump over the low and usually beat the low, making it a LOW CRUSH. Whereas a move like a generic d1 or commonly refered to as a dick jab, involves the character
+                    ducking and punching making it a HIGH CRUSH. Some moves/stances can even "crush" mids (although it is rare) like Xiaoyu's AOP (Art Of Phoenix) stance will consistantly go under some mids
+                    so it is important to figure out which mids will hit her while she's in stance if you want to get better at the Xiaoyu match-up.
+                </p>
+                <p>
+                    There are certain moves in this game that we call a "Power Crush" which is essentially an armored move. A power crush allows you to brute force your way through an opponents attacks but still
+                    comes with some risks. All power crushes lose to lows (the low will also be considered a counter hit) meaning they only work on highs and mids. If you are grabbed during a power crush you
+                    cannot break the throw even if you inputted the correct break. Power crushes are a good tool to have but should most likely be used sparingly since they are usually punishable, if they are
+                    mid then it is most likely block punishable and if they're high you can duck them. Side-note: the damage you take during the armor is real damage, not like grey damage in Street Fighter V
+                </p>
+                <p>
+                    A counter hit occurs when a character gets hit while trying to attack. In Tekken 7, moves on counter hit can drastically change how the move interacts. For instance, a generic standing 4 is
+                    called a "magic 4" because its a fast, safe, high that does a litte damage, can lead to a full combo on counter hit. While not all moves will lead to combos on counter hit but there are a
+                    decent amount that do, some moves on counter hit don't do anything different, and some just give you more plus frames on counter hit.
+                </p>
+            </article>
+    </section>
+    <section class="main-section" id="While_Standing">
+        <header>While Standing</header>
+        <article>
+            <p>
+                There are three kind of "stances" that every character has: Standing, Full Crouch, and what we call While Standing or WS. While Standing is the transition state from crouching to standing,
+                essentially it's your character standing up. In all of the "stances" your character gets access to different moves, most of the full crouch ones are generic like the dick jab (d1) or a
+                generic d4 which all serve their own purpose. "While Standing" is important because when you block certain moves (like lows), usually the best punish comes from the while standing, going from
+                crouch to standing takes too much time usually and full crouch moves aren't very good for punishing (low damage, negative on-hit) so while standing is the best/easiest way to punish. Make sure
+                you go into training mode and test out the while standing state so you know how to punish a low.
+            </p>
+            <figure id="vid-gen">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/vmVZTlT48Eg" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <figcaption id="vid-cap">Lord Aris aka AvoidingThePuddle on punishing lows.</figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Low_Parries">
+        <header>Low Parries</header>
+        <article>
+            <p>
+                Low parries are a universal mechanic meaning that every character can perform, you can low parry an opponent's low attack by pressing down+forward when the opponents does a low. After a
+                successful low parry you can perform a full combo but the combo's damage will be heavily scaled. Not all lows can be low parried (for instance, Noctis's low attack that involve a weapon
+                cannot be low parried) and low parries are SLOWER than crouch blocking. Low parries shouldn't be used all the time, sometimes it is better to just crouch block even if you know a low is
+                coming (For instance, blocking a snake edge is better than low parrying it since it is launch punishable on block). Low parries are most important against certain lows that are safe on 
+                block or that are in the middle of strings (like Law's junkyard string).
+            </p>
+            <figure id="vid-gen">
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/vCRsk35toYE" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                    <figcaption id="vid-cap">Lord Aris aka AvoidingThePuddle on the difference between low parries and block punishing lows.</figcaption>
+                </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Strings">
+        <header>Strings</header>
+        <article>
+            <p>
+                When you input moves in a correct order and your character does moves that cannot be accessed without doing the string, it is a "string" of moves. For instance, Paul's infamous demoman is a
+                3 hit string that goes low, mid, mid. You cannot do the second mid or the third mid without the first low and many strings combo naturally on hit while some only combo on counter hit. Some parts
+                of string are even delayable for example, Armorkings 1,2,1 string is a high, high, mid string where you can delay the last hit (mid) so if my opponent wants to mash out of the string they will
+                get counter hit by the last mid rather than being stuck in the block string. You can throw your opponent's timing off by delaying some strings but not all strings are delayable and some have
+                natural gaps already. Strings are used all the time, they'll be your block punishers, in your combos, and some even have built in mix-ups!
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Throws">
+        <header>Throws</header>
+        <article>
+            <p>
+                Like in other fighting games, throws are a way to beat blocking but in Tekken 7 specifically they are somewhat easy to avoid (at the highest level) since there are generally 2 ways 
+                to "beat" throws. Basically there are 2 types of throws in Tekken 7, normal throws and command throws. Almost all throws can be broken by pressing either 1, 2, or 1+2 are the correct time,
+                the difference between normal throws and command throws is that command throws MUST be broken by pressing the correct throw break (1, 2, 1+2) while a normal throw can be broken by pressing
+                either 1 or 2. Most throws are highs in Tekken 7 meaning that they can be ducked and punished if the opponent has a read that you are going for a throw. 
+            </p>
+            <p>
+                So how does someone know which button to break with for command throws? Well each command throw has a "tell" on which button to use, depending on the throw the character will reach out with
+                their left arm in front, their right arm in front, or with both arms together. If its their left arm you press 1 to break, if its their right arm it's a 2 break, and lastly if they grab you with
+                both arms you gotta press 1+2 at the same time to break it. Not all characters have access to all three command throws (1, 2, 1+2) most of them only have access to one (usually a 1+2 throw).
+            </p>
+            <p>
+                Throws are a good way to get damage but must be used sparingly against good opponents since they are highs (some grapplers have crouch throws and ground throws) and that throws can be broken
+                ON REACTION meaning that if the player is sharp and has practiced they can visually see which arm moves forward and do the correct break almost every time. Some throws break the rules like
+                King's and Armorking's famous giant swing throw which looks like a 1+2 break but is actually a 1 break (along with it being 10 frames) making it one of the best throws in the game. The nice
+                thing is that throws usually have good damage and can lead to good okizeme (pressuring the opponent while they are trying to get up after some sort of knockdown) and if they break it then it
+                usually just resets back to neutral. But since throws can be broken on reaction and can be heavily punished if ducked, you have to be careful when attempting to throw good players.
+            </p>
+            <p>
+                Breaking throws can be very hard at first, especially online, but learning how to throw break is the first step to beating them and I wouldn't necessarily reccommend practicing breaking
+                throws when you are new since it can be quite boring and frustrating. If you are facing an opponent who goes for throws a lot, try your best to break throws and don't be afraid to duck!
+            </p>
+            <figure id="vid-gen">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/m4em9HzrwFI" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <figcaption id="vid-cap">Lord Aris aka AvoidingThePuddle on breaking throws.</figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Getting_off_the_Ground">
+        <header>Getting off the Ground</header>
+        <article>
+            <p>
+                Often in Tekken 7 you'll find yourself on the ground, after getting hit by a move that knockdowns, after certain throws, or after a combo so it is important to know your options on the ground
+                in order to make sure you can hopefully avoid taking big damage again. It is important to distinguish that there are many different ways to be on the ground, for instance, is your head or your
+                feet facing the opponent? Are you on your back or your stomach? These things will affect how you get up meaning it will most likely affect what the best choices are to get up.
+            </p>
+            <p>
+                Let's start with "tech" options like holding back, tech-rolls, and "quick recovery". It is important to note that these 3 options must either be input before you hit the ground from an airborn 
+                state or right as you hit the gorund. Holding back is usually one of the safest options to get up since it adds distance between you
+                and your opponent (since you're moving back as you get up) while also protecting you from mids, in fact you can hold downback instead to block lows if you know your opponent is going for
+                a non-guaranteed low or something (although be careful because then you can get hit with mids). While it is very safe when you are face-up feet-towards your opponent, it is pretty risky to do
+                if you are in a feet-away state from your opponent. This should be one of the main ways you get up.
+            </p>
+            <p>
+                Performing a tech-roll is another great option to get off the ground since it is invincible during the rolling part and it can give you some distance away from the opponent and even from the
+                wall depending on which way you roll. To tech roll into the background, you press a punch button as you hit the ground (you can mash to get it) or a kick button to tech-roll into foreground
+                (you can mash it out). Side note: when you recover from a tech-roll, you are recovering IN CROUCH.
+            </p>
+            <p>
+                The last option is what the game calls "quick recovery" where your character will get up by kicking back and doing this front flip thing. The nice thing is that it is an attack but it is pretty
+                slow and very risky so I do not reccommend using it often if at all. It is performed by holding or pressing up as you hit the ground.
+            </p>
+            <p>
+                One unique part of Tekken 7 is that you do not need to get up right away, you can lay on the ground for as long as you want by not inputting anything. This can throw your opponents timing off
+                and is relatively safe since only certain moves can hit grounded opponents but it also changes the options you have from getting up since all of the "tech" options require you to input the option
+                right as you hit the ground. There are a lot of options you can do but let's start with the options that are not attacks. Every time you are hit while on the ground you have the option to do
+                a "tech" option (usually a tech-roll).
+            </p>
+            <p>
+                The first option I want to go over is "holding back" because it is pretty much identical to the "tech" version of it and is even performed the same way, by holding back. Still a very strong and safe
+                option.
+            </p>
+            <p>
+                Side-rolling is fairly different despite looking very similar to a tech-roll with the most important part being that side-rolling IS NOT INVINCIBLE and the fact that they are performed in different
+                ways. To side-roll into the background you press the 1 button (the 2 button will do nothing) and to side-roll into the foreground you input d1 instead. It is important to note that you can stay down
+                AFTER a side-roll by holding down after performing a side-roll in either direction. Side-rolling is a great option for a lot of the same reasons as tech-rolling except instead of invincibiliy,
+                you can change the timing. Another important difference between side-rolling and tech-rolling is that you recover from a ground position instead of in crouch meaning you only have access to things like
+                get up kicks.
+            </p>
+            <p>
+                Front rolling has your character roll fowards towards you opponent and has them recover from grounded (similar to side-rolling). This is usually only useful to get out of certain setups like some of
+                King/Armorking's burning knuckle setups.
+            </p>
+            <p>
+                There are multiple attacks that you can perform from the ground with the 4 main ones being: a mid get up kick, a low get up kick, the spring kick, and the toe kick. All of them are kind of "high-risk,
+                high-reward" plays so I wouldn't reccommend using them all the time. Side note: All the attacks are also very linear and can be easily stepped.
+            </p>
+            <p>
+                Starting with the mid get up kick, it varies in speed depending on whether which direction your feet are pointing along with if you are face-down or up. Still relatively fast and helps get your 
+                opponent off of you, it even knocks down on counter hit! It is technically punishable on block but has some push back so some characters have a hard time punishing it.  
+                The low get up kick, is similar to the mid get up kick except it trades pushback for damage in that it leads to a full combo on counter hit! Be careful though since it can be easily punished if blocked
+                or even low parried. The low get up kick is performed by inputting the 3 button while the mid get up kick is performed by inputting the 4 button.
+            </p>
+            <p>
+                The Spring kick is a mid attack from the ground where your character springs up from the ground kicking with both legs towards your opponent. It has decent range, knockdown on normal hit, and can even
+                crush lows if done at the right time but it is very punishable on block depending on how shallow it hits. It is at least -12 but can be launch punishable if blocked shallow enough. To perform a spring
+                kick you input 3+4 and can only be performed face-up, feet-towards. Side note: Some character do not have a spring kick, instead they have a move called the cross chop that looks like a forwards roll
+                but ends with an attack.
+            </p>
+            <p>
+                The toe kick has the character do a short little low kick and will push the opponent away on hit and has the character do an automatic backroll on hit too. This option is great for making distance
+                between you and your opponent but be careful since it is launch punishable on block. It is performed by inputting d3.
+            </p>
+            <p>
+                Getting off the ground can be a bit confusing and scary so I reccommend sticking with holding back, tech-rolling, and staying on the ground since these options are fairly safe. 
+            </p>
+            <figure id="vid-gen">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/j-PDc20Jezg" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <figcaption id="vid-cap">Lord Aris aka AvoidingThePuddle on breaking throws.</figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="main-section" id="Combos">
+        <header>Combos</header>
+        <article>
+            <p>
+                The combos im referring to in this section is different from normal hit and counter hit "combos" from strings, I am referring to launch combos which are the most damaging combos in the game.
+                On average, a "launch" combo can do a third to half someone's health bar some characters even have death combos in the right conditions. For the most part, the format of a combo is:
+                Launch, filler, screw-attack (S!), filler (sometimes no filler here), ender. What I mean by launch is usually a move that hits them into the air and allows for a follow-up or stuns then to 
+                where you get a full combo afterword. A full combo usually needs the screw-attack (S! in notations), certain moves are called screw attacks (homing attacks are often also screw attacks) 
+                because hitting them with it will sometimes result(some can only screw on characters in a combo, and some can screw on normal hit or counter hit which would also mean they are the launcher too) 
+                in a screw state. A screw state has the character spin in the air and land on their back with the legs up usually to where you can continue your combo. The filler part can be whatever 
+                doesn't end the combo, it can be a string or maybe a few single hits.
+            </p>
+            <p>
+                Let's take a look at a few examples of combos. King's Hopkick bnb:
+            </p>
+            <code>
+                uf4 - f3 - df3,4 - df2,1 (S!) - WR2+4
+            </code>
+            <p>
+                So the uf4 is the launcher, f3 and df3,4 is the filler, df2,1 is the screw attack,
+                and the while running 2+4 (WR2+4) is the ender (some grappler characters can end their combos with a guaranteed throw). It is important to note that the screw often send the opponent far away
+                so you'll most likely need to run or dash to continue the combo.
+            </p>
+            <p>
+                Dragunov's df2 bnb (also his ws2 bnb) looks like:
+            </p>
+            <code>df2 - f4,4,3 - b4,3 (S!) - 3,1,2df2 - f4,4,3 - b4,3 (S!) - 3,1,2b</code>
+            <p>
+                So df2 is the launcher, f4,4,3 is the filler, b4,3 is the screw attack, and 3,1,2 is the ender.
+            </p>
+            <p>
+                When starting out it can be a bit complex to optimize your combos especially with walls and stuff so it's important to find some easy combos that you can do consistantly because if you're
+                hitting your opponent with a launcher and not getting at least a decent amount of damage then it'll be very hard to win against someone who can do combos. Sure, you can win without launchers,
+                in fact at a high level there are many rounds that end without any launches but you want to be able to get the damage when you can. I definitely suggest looking up combos and bnbs when starting
+                out rather than trying to make your own combos and if you really want to optimize then go look for some tournament footage and see what combo options they do and try to figure out why.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Rage">
+        <header>Rage</header>
+        <article>
+            <p>
+                Rage is the "comeback" mechanic in Tekken 7, when your health hits or goes below 20% you gain "rage". While in rage, you passively do a little extra damage with everything and you gain 
+                access to 2 special/different moves: a Rage Art, and a Rage Drive. A rage art is the "super" of Tekken 7 when you input it has a frame stop effect (purely visual) and if it hits it goes
+                through a whole cinematic thing. The main thing about rage arts is that they are similar to power crushes in that it has an armor effect but rage arts actually reduce the damage you would
+                take compared to a power crush along with also beating low attacks and grabs! Essentially if your opponent does anything other than block your rage art then they'll be in a world of hurt,
+                especially if you are low on health since rage arts deal more damage the lower your health is. Using a rage art comes with some risk since all of them are highly punishable, either being
+                easily launch punishable on block mid or a high. Using your rage art will also use your rage meaning you won't have access to it for the rest of the round and losing the passive damage buff.
+                You will most likely be using a rage art either as an armor move to blow through a mix-up or they can be used as a high damage combo ender.
+            </p>
+            <p>
+                Rage Drives are an empowered move that your character either already has or sometimes a completely new one. Rage drives vary from character to character whereas rage arts all serve the same
+                kind of purpose, some rage drives can we used to extend combos and some are good for pressure by being a highly plus on block mid while others are a low-risk, high-reward safe launcher.
+                Not all rage drives are the same, some are just better than others, some of them people might consider bad or useless. Although you don't need to learn all the characters rage drives,
+                it is important that you know yours and know that other characters' rage drives will probably break the rules a little bit. For instance, Jack-7's rage drive is a better version of his
+                "debugger", which is a slow, high damaging low that is launch punishable on block, while his rage drive adds a mid after the low that not only increases the damage on hit but also has a 
+                ton of push back making it comepletely safe.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Walls_and_Breakable_Terrain">
+        <header>Walls and Breakable Terrain</header>
+        <article>
+            <p>
+                Stages in Tekken 7 are not all the same, some stages are infinite stages meaning there's no walls and go on forever, some are walled stages, some have breakable walls or balconies, and some
+                stages allow you to break the floor! Some stages are small and some are large, stage often matters for certain matchups with some characters and playstyles want walls in order to
+                corner/pressure their opponent and some want an infinite stage so that they can run away and make their opponent come to them.
+            </p>
+            <p>
+                Walls are important you can corner your opponent limiting their options since they can no longer control the distance between you and your opponent while you still can. Not only that, but
+                walls also allow was wall specific combos if they are wall splatted. Certain moves can cause a wall splat, usually moves that knock down or homing moves that cause a special spin stun
+                (the spin stun that allows the opponent to block still but has high frame advantage for the attacker). Wall combos can be really complex so I suggest just looking up what pros do and copying them.
+                So the wall buffs moves that causes wall splats (these moves are often safe) but also kind of nerfs certain launchers since you won't get a full combo but the risk of the launcher still remains.
+                You can also do a wall combo at the end of a "launch" combo to add damage and maybe even get some good okizeme.
+            </p>
+            <p>
+                Certain walls can be broken during a wall combo which allows you to do a full combo or at least get some added damage while also opening up the stage to be bigger. Some walls trigger a
+                balcony break which also allows for a full combo or some extra damage but rather than opening up the stage you go to a comepletely new area. There is currently only one floor break stage,
+                where certain moves will cause the floor to break similar to the other breaks it allows to either to start a combo or continue a combo but is different in that it can happen anywhere in the stage.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Good_Moves_Vs._Bad_Moves">
+        <header>Good Moves Vs. Bad Moves</header>
+        <article>
+            <p>
+                You might notice that the movelist for almost every character is huge but luckily not all of those moves are important, some are just straight up bad. So in this section we're gonna talk
+                about some good moves and some bad moves and ask why. 
+            </p>
+            <p>
+                When I first started playing Tekken 7 sersiously I remember hearing about Dragunov's WR2 all the time (partly because it was during
+                JDCR's reign during season 1) even after the nerf it received to its tracking, the move is still one of the best moves in the game. Dragunov's while running 2 is a mid that's plus on block,
+                that knock downs on normal hit (meaning it can wallsplat) and if the opponent gets hit without holding back you get a guaranteed stomp, not to mention the move is a counter hit launcher.
+                Part of the reason why this move is so good is because there's no one right answer especially if you can do an instant while running 2 meaning that they can do it at any range.
+                Sure the move has a somewhat slow startup but because it is a counter hit launcher you have to think twice trying to challenge it. I would use it fairly often.
+            </p>
+            <p>
+                Let's take a look at a "good" move now, a move I consider good that many characters have is the generic dick jab. It is a 10 frame move, that high crushes, its give a lot of frames on hit
+                along with being safe on block. The problem is that it is a "special mid", special mids are moves that can be blocked by either standing or crouching and are considered "low" meaning
+                that it can be beating by a low crushing move like a hopkick and can be low parried. The reason why I consider this move to be good rather than great is because it can be punished pretty
+                heavily if the have a good read. The move isn't bad because for the most part you won't get punished if you stay unpredictable. I would use it somewhat often.
+            </p>
+            <p>
+                When I think of a decent move I think of Armorking's df3. The move is a chunky mid knee (meaning it cannot be parried for the most part) has good range, gives decent frames on hit, safe on block,
+                is somewhat fast at 17 frames, and is a counter hit launcher. So on paper the move sounds pretty good but the problem lies in its tracking, the move can be stepped to both sides fairly
+                easily, a reoccuring problem for Armorking. Outside of combos, I would only use this move for certain setups or very sparingly.
+            </p>
+            <p>
+                Finally let's take a look at a bad move, Armorking's df1+2. This is one of Armorking's only homing moves, it's mid, safe on block, does decent damage, and knockdowns. The problem is that it's
+                really really slow at 23 frames which is after the buff in season 3 (it was around 25 frames). This move will probably never hit your opponent since it is seeable (slower than 22ish frames)
+                and most likely won't catch someone sidestepping since it is easy to sidestep, block this move. Pair this with Armorking's lack of plus frames from his moves and you might even get counter hit
+                for trying to use this move. The move is really cool but probably won't get used more than once a match and that's being nice. 
+            </p>
+            <p>
+                A move I feel that should be addressed is the infamous Snake Edge, a snake edge is a low that launches on normal hit for a full combo which is very uncharacteristic because most lows do little
+                damage. The reason why this move isn't the best low in the game is because of it's speed, usually snake edges are around 22-26 frames meaning that they are reactable and launch punishable on block.
+                In practice you should almost never get hit by a snake edge if you are paying attention and there's no lag. Starting out I hated this move because I felt that I should never get 
+                hit by it online but I would often get hit starting out. I failed to recognize that it has some great crushing properties, it crushes highs and even some mids so you have to be careful.
+                Make sure you bait it out and block and punish accordingly. I think you should rarely use this move but once in awhile is okay, its decent.
+            </p>
+            <p>
+                Although most moves have at least one sort of use, I reccommend using a few key moves and slowly adding more moves to your repertoire. Get comfortable using jabs, a few good mids, a good low
+                poke, and a good whiff punisher and you'll have the tools to beat anyone. Learning a simple, solid playstyle will let you have something to fall back on when things get crazy and give you
+                a good foundation for you to start trying more advanced strategies in the future.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Advanced_Movement">
+        <header>Advanced Movement</header>
+        <article>
+            <p>
+                When talking advanced movement, the first thing you'll most likely hear about is the infamous Korean Back Dash or KBD and how important it is. Despite what the internet thinks, it is NOT
+                the most important thing in Tekken 7 and not being able to KBD will not stop you from playing or winning. With that said, learning to Korean Back Dash will take a long time and putting the
+                time in will be worth it if you plan to play somewhat seriously since it can be a powerful tool if used correctly. The ability to create space between you and your opponent in a relatively
+                safe manner can be crucial especially on infinite stages where there's no danger fo you cornering yourself.
+            </p>
+            <p>
+                The Korean back dash is a technique that takes advantage of Tekken's movement system by using a crouch to cancel a back dash. The inputs for a KBD looks something like:
+                b n b,db,b n b,db,b n b,db,b...(n is neutral). If you were to look at the inputs for just doing back dashes without trying to cancel them it would look like: b n b n b n b.
+                So as you can see after the first back input you're just adding down+back, back which is cancelling the back dash (the db part) and starting another back dash. Once you master the basic
+                motion, you'll be able to link them together for forever pretty much.
+            </p>
+            <p>
+                Learning a good KBD can be hard so I suggest practicing a little bit everyday. It will also be hard to get used to using it under pressure and in game so you might lose games trying
+                to implement it so try your best and be patient. Realistically you only need to be able to korean back dash a few times in a row, usually 2 reps will get you out of range and ready for
+                a whiff punish.
+            </p>
+            <p>
+                There are few other advanced movement techniques the other most notable one is crouch cancelling. Crouch cancelling is a way "skip" the while standing state allowing you to use 
+                standing moves immediate. This is performed up sidestepping into the background from crouch (tapping up) and immediately inputting a move. This can be important for some characters
+                like Dragunov and Heihachi but most characters don't use it too often.
+            </p>
+            <p>
+                There's a few other forms of advanced movement but there probably character dependent like the mishima wavedash or certain crouch dashes like Josie. Some of them are important but it mostly
+                depends on which character you are learning, for instance, learning how to use the wavedash is important to Devil Jin but learning King's "wavedash" is pretty excessive and almost no
+                King players use it seriously even at the top level.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Playing_against_real_humans">
+        <header>Playing against real humans</header>
+        <article>
+            <p>
+                One of the most important things I've learned playing Tekken 7 is that you should play how you want to play, in a game that is extremely free form with multiple solutions to problems,
+                you should try your best to express your own creativity. Don't get caught up in trying to play "real Tekken" others will tell you the "correct way" to play Tekken and sure you might
+                learn from it but at the end of the day you should play in a way that you find enjoyable. 
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Watching_Match_Footage">
+        <header>Watching Match Footage</header>
+        <article>
+            <p>
+                Watching tournament matches is a great way to improve once you start understanding the mechanics of the game and luckily Tekken 7 is one of the best/hype games from a viewer standpoint
+                largely due to commentators and slow-mo. It can also be a valuable way of learning, from learning new combos and setups to learning a whole new playstyle. The more you play and watch,
+                the more you'll understand the game and hopefully enjoy watching it more and more. If you really want to get better then you'll start analyizing your own matches which can help you directly
+                figure out bad habits, your strengths, and weaknesses.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Tekken_World_Tour">
+        <header>Tekken World Tour</header>
+        <article>
+            <p>
+                Luckily for us Bandai Namco (bless Harada-sama) is very supporting of the competitive Tekken 7 scene and is currently in the middle of the Tekken World Tour.
+                Players compete in tournaments around the world to get enough points to play at the Tekken World Tour Finals to see who's the best. There are lots of channels uploading
+                Tekken world tour content without consent like BigDaddyJende and HobbyGamer, please try not to watch these videos/channels especially since 
+                <a id="ref-link" href="https://www.youtube.com/channel/UCKHx_yf3dI2ajWAjXRJ_9Rw" target="_blank">Bandai Namco has a youtube channel</a> that uploads all tournament matches now.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="Important_Links">
+        <header>Important Links</header>
+        <article>
+            <p>
+                Below I've decided to include some links that I think could help you learn more about Tekken 7:
+                <ul>
+                    <li><a id="ref-link" href="https://www.youtube.com/channel/UCPlV0OpQMImKviSTWHJEDiQ" target="_blank"><b>Pro Player JDCR's youtube channel</b></a>, has some great Tekken 7 tutorials and 
+                        interesting look into what it takes to be a professional</li>
+                    <li><a id="ref-link" href="https://www.youtube.com/playlist?list=PLMCyLSAjLlQ0YEDmZ-Esbnzd4gcstVOC5" target="_blank"><b>AvoidingThePuddle's</b></a> Tekken "tutorial" videos</li>
+                    <li><a id="ref-link" href="https://www.youtube.com/channel/UC5GTc4yWm-yiBFTuV3MsGaQ" target="_blank"><b>That Blasted Salami</b></a>, has a wide variety of Tekken 7 content including 
+                        interviews and character breakdowns</li>
+                    <li><a id="ref-link" href="https://www.youtube.com/channel/UC0qMmmZUXGLrcJUdYJcvFCg/featured" target="_blank"><b>FrameWhisperer</b></a>, great character guides along with interesting 
+                    "rant" videos</li>
+                    <li><a id="ref-link" href="https://www.youtube.com/user/MitsuGTO885" target="_blank"><b>TheMainManSwe</b></a>, creates lots of Tekken 7 content and has interesting analysis/"rant" videos</li>
+                    <li><a id="ref-link" href="https://www.youtube.com/channel/UCT7njg__VOy3n-SvXemDHvg" target="_blank"><b>Core-A-Gaming</b></a>, great, high-quality videos regarding anything fighting game related
+                    and sometimes has videos specifically about Tekken 7</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
